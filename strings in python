@@ -1,0 +1,51 @@
+#Assign string to a variable
+
+a = "Hello"
+print(a)
+
+#Multiline string
+
+a = """Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters.."""
+print(a)
+
+#Strings are arrays
+
+a = "Hello, World!"
+print(a[1])
+
+#Looping through a string
+
+for x in "banana":
+  print(x)
+
+
+#String length
+a = "Hello, World!"
+print(len(a))
+
+#Check string
+
+txt = "The best things in life are free!"
+print("free" in txt)
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+
+#Check if NOT
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
